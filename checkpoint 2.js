@@ -37,3 +37,16 @@ function isPrime(num) {
     }
     return true;
 }
+
+
+//sum of array
+
+const myNums = [1,2,3,4,5];
+
+let sum = 0;
+
+myNums.forEach( num => {
+  sum += num;
+})
+
+console.log(sum) 
