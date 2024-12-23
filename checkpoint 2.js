@@ -50,3 +50,21 @@ myNums.forEach( num => {
 })
 
 console.log(sum) 
+
+//  function that reverses a  string 
+
+let original = "Hello World";
+let reversed = "";
+
+for (let i = original.length - 1; i >= 0; i--) {
+    reversed += original[i];
+}
+
+console.log(reversed);
+
+// filter array 
+
+const numArray = [1, 2, 3, 4, 5];
+const filteredArray = numArray.filter(num => num !== 3);
+console.log(filteredArray); 
+
